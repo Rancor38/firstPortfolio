@@ -1,7 +1,8 @@
+//BUILD A CAROUSEL
 document.querySelectorAll(".carousel").forEach((carousel) => {
-  const items = carousel.querySelectorAll(".carousel__item");
+  const items = carousel.querySelectorAll(".carousel__item")
   const buttonsHtml = Array.from(items, () => {
-    return `<span class="carousel__button"></span>`;
+    return `<span class="carousel__button"></span>`
   });
 
   carousel.insertAdjacentHTML(
@@ -13,7 +14,7 @@ document.querySelectorAll(".carousel").forEach((carousel) => {
 	`
   );
 
-  const buttons = carousel.querySelectorAll(".carousel__button");
+  const buttons = carousel.querySelectorAll(".carousel__button")
 
   buttons.forEach((button, i) => {
     button.addEventListener("click", () => {
@@ -25,12 +26,30 @@ document.querySelectorAll(".carousel").forEach((carousel) => {
         button.classList.remove("carousel__button--selected")
       );
 
-      items[i].classList.add("carousel__item--selected");
-      button.classList.add("carousel__button--selected");
-    });
-  });
+      items[i].classList.add("carousel__item--selected")
+      button.classList.add("carousel__button--selected")
+    })
+  })
 
   // Select the first item on page load
-  items[0].classList.add("carousel__item--selected");
-  buttons[0].classList.add("carousel__button--selected");
+  items[0].classList.add("carousel__item--selected")
+  buttons[0].classList.add("carousel__button--selected")
+
+  //Create nav-bar that selects current carousel__item
+  const navs = document.querySelectorAll(".link__item")
+
+  navs.forEach((button, i) => {
+    button.addEventListener("click", () => {
+      // un-select all the items
+      items.forEach((item) =>
+        item.classList.remove("carousel__item--selected")
+      );
+      navs.forEach((button) =>
+        button.classList.remove("carousel__button--selected")
+      );
+
+      items[i].classList.add("carousel__item--selected")
+      button.classList.add("carousel__button--selected")
+    })
+  })
 });

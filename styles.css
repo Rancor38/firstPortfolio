@@ -1,7 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200&family=Special+Elite&display=swap');
 @keyframes fadeIn {
-    0% {opacity: 0;}
+    0% {opacity: .5;}
     100% {opacity: 1;}
 }
 
@@ -10,16 +10,19 @@ body {
     font-family: 'Roboto Slab', serif;
     font-family: 'Special Elite', cursive;
 }
+h1 {
+    text-align: center;
+}
 .carousel {
     position: relative;
   }
   
   .carousel__item {
-    height: 300px;
+    height: 80vh;
     background: grey;
     padding: 1em;
     color: #ffffff;
-    animation: fadeIn 1s;
+    animation: fadeIn 3s;
     display: none;
   }
   
@@ -29,7 +32,7 @@ body {
   
   .carousel__nav {
     width: 100%;
-    padding: 20px 0;
+    padding: 2vw ;
     position: absolute;
     bottom: 0;
     left: 0;
@@ -37,10 +40,10 @@ body {
   }
   
   .carousel__button {
-    width: 10px;
-    height: 10px;
+    width: 3vw;
+    height: 3vw;
     display: inline-block;
-    background: rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 0.3);
     border-radius: 50%;
     margin: 0 5px;
     cursor: pointer;
@@ -50,3 +53,16 @@ body {
     background: rgba(255, 255, 255, 0.7);
   }
   
+  .link__nav {
+    height: 5vw;
+    width: 96vw;
+    display: flex;
+    justify-content: start;
+    background: rgba(110, 110, 110, 0.081);
+  }
+  .link__item {
+    text-align: center;
+    width: 10vw;
+    cursor: pointer;
+    padding-inline-start: 1vw;
+  }
