@@ -7,4 +7,5 @@ MVP
 Build a single-page application with a home page with a carousel
 3 sub pages on carousel.
 Add a navigation-bar
+make the site change the navigation bar on mobile.
 Subpages are a bio, my projects, and my resume.

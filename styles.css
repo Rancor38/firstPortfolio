@@ -18,11 +18,11 @@ h1 {
   }
   
   .carousel__item {
-    height: 80vh;
+    height: 70vh;
     background: grey;
     padding: 1em;
     color: #ffffff;
-    animation: fadeIn 3s;
+    animation: fadeIn 1s;
     display: none;
   }
   
@@ -40,8 +40,8 @@ h1 {
   }
   
   .carousel__button {
-    width: 3vw;
-    height: 3vw;
+    width: 1.5vw;
+    height: 1.5vw;
     display: inline-block;
     background: rgba(255, 255, 255, 0.3);
     border-radius: 50%;
@@ -54,7 +54,7 @@ h1 {
   }
   
   .link__nav {
-    height: 5vw;
+    height: 4vw;
     width: 96vw;
     display: flex;
     justify-content: start;
@@ -62,7 +62,8 @@ h1 {
   }
   .link__item {
     text-align: center;
-    width: 10vw;
+    width: 15vw;
     cursor: pointer;
     padding-inline-start: 1vw;
+    font-size: 3vw;
   }

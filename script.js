@@ -52,4 +52,6 @@ document.querySelectorAll(".carousel").forEach((carousel) => {
       button.classList.add("carousel__button--selected")
     })
   })
+  //select the first item on the nav-bar selected
+  navs[0].classList.add("carousel__button--selected")
 });
