@@ -1,5 +1,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200&family=Special+Elite&display=swap');
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
 
 body {
     background: whitesmoke;
@@ -8,19 +12,41 @@ body {
 }
 .carousel {
     position: relative;
-}
-
-.carousel_item {
+  }
+  
+  .carousel__item {
     height: 300px;
     background: grey;
     padding: 1em;
-}
-
-.carousel_nav {
+    color: #ffffff;
+    animation: fadeIn 1s;
+    display: none;
+  }
+  
+  .carousel__item--selected {
+    display: block;
+  }
+  
+  .carousel__nav {
     width: 100%;
     padding: 20px 0;
     position: absolute;
     bottom: 0;
     left: 0;
     text-align: center;
-}
+  }
+  
+  .carousel__button {
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  .carousel__button--selected {
+    background: rgba(255, 255, 255, 0.7);
+  }
+  
