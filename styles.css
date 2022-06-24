@@ -41,7 +41,6 @@ li{
   }
   
   .carousel__item {
-    /* height: 70vh; */
     background: grey;
     padding: 1em;
     color: whitesmoke;
@@ -93,13 +92,25 @@ li{
   }
 
   #content {
-    display: inline-block;
+    display: inline;
   }
 
   #contact__information {
-    display: inline;
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    font-size: medium;
+    right: 0vw;
+    height: 30vw;
+    width: 25vw;
     float: right;
-    width: 35vw;
+    margin-bottom: 30px;
+    margin-top: -10px;
+  }
+
+  #skills {
+    display: flex;
+    justify-content: space-around;
   }
 
   img {
