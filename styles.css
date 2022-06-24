@@ -17,12 +17,31 @@ h1 {
     font-size: 5vw;
     font-family: 'Lobster', cursive;
 }
+
+h3 {
+    font-family: 'Lobster', cursive;
+}
+
+h4 {
+    text-align: center;
+}
+
+p {
+    font-size: medium;
+    color: white;
+  }
+
+li{
+    font-size: medium;
+    color: white;
+}
+
 .carousel {
     position: relative;
   }
   
   .carousel__item {
-    height: 70vh;
+    /* height: 70vh; */
     background: grey;
     padding: 1em;
     color: whitesmoke;
@@ -72,10 +91,17 @@ h1 {
     padding-inline-start: 1vw;
     font-size: 3vw;
   }
-  p {
-    font-size: medium;
-    color: white;
+
+  #content {
+    display: inline-block;
   }
+
+  #contact__information {
+    display: inline;
+    float: right;
+    width: 35vw;
+  }
+
   img {
     border: 1px solid #ddd;
     border-radius: 50%;
