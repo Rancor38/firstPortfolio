@@ -54,4 +54,13 @@ document.querySelectorAll(".carousel").forEach((carousel) => {
   })
   //select the first item on the nav-bar selected
   navs[0].classList.add("carousel__button--selected")
+
+
+  //add a button for each project on the projects page, identifying them by ID
+  const projectButton = document.querySelector("#tictac")
+
+  projectButton.addEventListener("click", () => {
+    window.open("https://rancor38.github.io/tic-tac-toe/",
+    "", "width=700, height=700");
+  })
 })
