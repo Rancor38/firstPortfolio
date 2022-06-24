@@ -1,5 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200&family=Special+Elite&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
 @keyframes fadeIn {
     0% {opacity: .5;}
     100% {opacity: 1;}
@@ -12,6 +14,8 @@ body {
 }
 h1 {
     text-align: center;
+    font-size: 5vw;
+    font-family: 'Lobster', cursive;
 }
 .carousel {
     position: relative;
@@ -21,8 +25,9 @@ h1 {
     height: 70vh;
     background: grey;
     padding: 1em;
-    color: #ffffff;
+    color: whitesmoke;
     animation: fadeIn 1s;
+    font-size: x-large;
     display: none;
   }
   
@@ -66,4 +71,8 @@ h1 {
     cursor: pointer;
     padding-inline-start: 1vw;
     font-size: 3vw;
+  }
+  p {
+    font-size: medium;
+    color: white;
   }
