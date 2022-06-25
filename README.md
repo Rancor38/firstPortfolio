@@ -1,6 +1,6 @@
 firstPortfolio is THE portfolio for Zakariah O'Mara-Mezzano, and it features HTML, CSS, and JavaScript to deliver an easy to use experience for all users!
 
-INSERT PICTURES OF WEBSITE HERE
+PICTURES OF WEBSITE HERE
 
 ![alt text](https://github.com/rancor38/firstPortfolio/blob/main/readme-bio.png?raw=true)
 
@@ -31,9 +31,7 @@ The last thing that I wanted to add was content, so once my "pages" on the carou
 
 With my content in place, I added the links to my linkedin and github on the navbar, and I still had to make a README and that's where I am now, moments before I host this website.
 
-LINK TO LIVE SITE
-
-<a href="mylinknamehere">
+[CLICK THIS LINK TO VISIT THE LIVE SITE]()
 
 THE FUTURE ON FIRSTPORTFOLIO
 
