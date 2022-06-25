@@ -82,12 +82,11 @@ li{
 }
   
 .link__nav {
-   height: 4vw;
+   height: 4.5vw;
    width: 85vw;
    display: flex;
    justify-content: start;
    background: rgba(110, 110, 110, 0.081);
-   padding-bottom: 3vh;
 }
 .link__item {
    text-align: center;
@@ -184,6 +183,10 @@ width: 75vw;
     .link__item {
         font-size: 7vw;
         width: 30vw;
+        border-style: dotted;
+        border-left: 0;
+        border-top: 0;
+        border-bottom: 0;
         font-stretch: ultra-condensed;
     }
     .social__button {

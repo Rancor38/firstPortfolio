@@ -59,7 +59,10 @@ document.querySelectorAll(".carousel").forEach((carousel) => {
   //add a button for each project on the projects page, identifying them by ID
   const projectButton = document.querySelector("#tictac")
 
+//Add feature to make a popup window
+let windowFeatures = "popup"
+
   projectButton.addEventListener("click", () => {
-    window.location.href = "https://rancor38.github.io/tic-tac-toe/ "
+    window.open ("https://rancor38.github.io/tic-tac-toe/ ", "game-window", "windowFeatures")
   })
 })
