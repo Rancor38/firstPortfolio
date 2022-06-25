@@ -10,11 +10,17 @@ PICTURES OF WEBSITE HERE
 
 TECHNOLOGIES USED
 The primary technologies used within were HTML, a lot of CSS, and JavaScript.
-In the HTML file all of the content for the doument has been laid out and organized. The content that isn't within the nav-bar and page title, is all nested within the Carousel... so let's talk about the carousel.
 
-In using a combination of all 3 languages, the carousel is the biggest achievment of this website. The primary function of the carousel was to be able to display multiple pages without navigating away from a single-page application. The solution? A big flippy mess of code, but it runs very smoothly and is future-proofed in case I want to add more nav-buttons/sheets to the carousel.
+INSTALLATION INSTRUCTIONS
+A web browser... Google Chrome, Microsoft Edge... Firefox. Safari.. Opera... if you're one of the 12 people who still use Opera.
+It's a website, idk.
 
-The code for the carousel is still a bit messy, so it the CSS page, and if I have time I'll come back and clean those up. The HTML page is pretty clean, all things considered, and I'll try to match its clarity and organization in future projects as well as when I return to this one.
+USER STORIES
+As a user I would like to be able to easily navigate the site and find the information that I need.
+
+WIREFRAMES
+![alt text](https://github.com/rancor38/firstPortfolio/blob/main/wireframe1.png?raw=true)
+![alt text](https://github.com/rancor38/firstPortfolio/blob/main/wireframe2.png?raw=true)
 
 APPROACH TAKEN
 I started off with a page for pseudocode and user-stories. I like to call this page sudowoodu (named after a very funny Pokemon) as this is a play-space to organize my thoughts. I also had 2 images still in the files of my wireframe. I built the wireframe in google slides, took a screenshot, and that was going to be my plan.
