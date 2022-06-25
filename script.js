@@ -60,7 +60,6 @@ document.querySelectorAll(".carousel").forEach((carousel) => {
   const projectButton = document.querySelector("#tictac")
 
   projectButton.addEventListener("click", () => {
-    window.open("https://rancor38.github.io/tic-tac-toe/",
-    "", "width=700, height=700");
+    window.location.href = "https://rancor38.github.io/tic-tac-toe/ "
   })
 })

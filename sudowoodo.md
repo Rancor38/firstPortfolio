@@ -9,3 +9,5 @@ Build a single-page application with a home page with a carousel
 Add a navigation-bar
 make the site change the navigation bar on mobile.
 Subpages are a bio, my projects, and my resume.
+
+Make the projects pictures into proper hyperlinked images.
