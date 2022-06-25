@@ -16,31 +16,16 @@ document.querySelectorAll(".carousel").forEach((carousel) => {
 
   const buttons = carousel.querySelectorAll(".carousel__button")
 
-//   buttons.forEach((button, i) => {
-//     button.addEventListener("click", () => {
-//       // un-select all the items
-//       items.forEach((item) =>
-//         item.classList.remove("carousel__item--selected")
-//       );
-//       buttons.forEach((button) =>
-//         button.classList.remove("carousel__button--selected")
-//       );
-
-//       items[i].classList.add("carousel__item--selected")
-//       button.classList.add("carousel__button--selected")
-//     })
-//   })
-
-  // Select the first item on page load
+  // SELECT THE FIRST ITEM ON THE PAGE TO LOAD
   items[0].classList.add("carousel__item--selected")
   buttons[0].classList.add("carousel__button--selected")
 
-  //Create nav-bar that selects current carousel__item
+  //A NAV BAR THAT SELECTS THE CURRENT CAROUSEL ITEM
   const navs = document.querySelectorAll(".link__item")
 
   navs.forEach((button, i) => {
     button.addEventListener("click", () => {
-      // un-select all the items
+      // DE-SELECT ALL CAROUSEL ITEMS
       items.forEach((item) =>
         item.classList.remove("carousel__item--selected")
       );
@@ -52,14 +37,15 @@ document.querySelectorAll(".carousel").forEach((carousel) => {
       button.classList.add("carousel__button--selected")
     })
   })
-  //select the first item on the nav-bar selected
+
+  //SELECT THE FIRST ITEM SELECTED ON THE NAV BAR
   navs[0].classList.add("carousel__button--selected")
 
 
-  //add a button for each project on the projects page, identifying them by ID
+  //A BUTTON FOR EACH PROJECT ON THE PROJECT PAGE, IDENTIFYING THEM BY ID
   const projectButton = document.querySelector("#tictac")
 
-//Add feature to make a popup window
+//A POP UP WINDOW FOR PROJECTS CLICKED
 let windowFeatures = "popup"
 
   projectButton.addEventListener("click", () => {
