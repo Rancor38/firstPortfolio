@@ -44,26 +44,28 @@ li{
     position: relative;
   }
   
-  .carousel__item {
+.carousel__item {
+    width: 95vw;
     background: grey;
     padding: 1em;
     color: whitesmoke;
     animation: fadeIn 1s;
     display: none;
-  }
+}
   
-  .carousel__item--selected {
+.carousel__item--selected {
     display: block;
-  }
+}
   
-  .carousel__nav {
+/* .carousel__nav {
     width: 100%;
     padding: 2vw ;
     position: absolute;
     bottom: 0;
     left: 0;
     text-align: center;
-  }
+    display: none
+} */
   
   /* .carousel__button {
     width: 1.5vw;
@@ -75,33 +77,50 @@ li{
     cursor: pointer;
   }
    */
-  .carousel__button--selected {
+.carousel__button--selected {
     background: rgba(255, 255, 255, 0.7);
-  }
+}
   
-  .link__nav {
-    height: 4vw;
-    width: 96vw;
-    display: flex;
-    justify-content: start;
-    background: rgba(110, 110, 110, 0.081);
-  }
-  .link__item {
-    text-align: center;
-    width: 15vw;
-    cursor: pointer;
-    padding-inline-start: 1vw;
-    font-size: 3vw;
-  }
+.link__nav {
+   height: 4vw;
+   width: 85vw;
+   display: flex;
+   justify-content: start;
+   background: rgba(110, 110, 110, 0.081);
+   padding-bottom: 3vh;
+}
+.link__item {
+   text-align: center;
+   width: 15vw;
+   cursor: pointer;
+   padding-inline-start: 1vw;
+   font-size: 3vw;
+}
 
-  .block__text {
+/* .social__bar {
+    width: 96vw;
+    height: 10vh;
     display: flex;
-    flex-direction: column;
-    margin: auto;
-    width: 70vw; 
-    border: .5vw;
-    border-style: inset;
-    padding: 10px;
+    justify-content: flex-end;
+    float: inline-start;
+} */
+
+.social__button {
+    position: relative;
+    left: 19vw;
+    width: 4vw;
+    height: 4vw
+    
+}
+
+.block__text {
+   display: flex;
+   flex-direction: column;
+   margin: auto;
+   width: 70vw; 
+   border: .5vw;
+   border-style: inset;
+   padding: 10px;
 }
 
 .prof__pic {
@@ -160,11 +179,17 @@ li{
 @media (max-width: 800px) { 
     .link__nav {
 height: 10vw;
+width: 75vw;
     } 
     .link__item {
         font-size: 7vw;
         width: 30vw;
         font-stretch: ultra-condensed;
+    }
+    .social__button {
+        left: 5vw;
+        height: 10vw;
+        width: 10vw;
     }
 }
 @media (prefers-color-scheme: dark) {

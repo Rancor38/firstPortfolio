@@ -11,3 +11,8 @@ make the site change the navigation bar on mobile.
 Subpages are a bio, my projects, and my resume.
 
 Make the projects pictures into proper hyperlinked images.
+Add an overlay over the page that greets the user.
+Add links to Github and LinkedIn (Absolutes on right side of screen, or on navbar)
+Update the README
+
+Add PDF of Resume to download?
