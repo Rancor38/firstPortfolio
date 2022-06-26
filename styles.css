@@ -1,7 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200&family=Special+Elite&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 @keyframes fadeIn {
     0% {opacity: .5;}
@@ -29,13 +29,13 @@ h4 {
 }
 
 p {
-    font-family: 'Kanit', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: medium;
     color: white;
   }
 
 li{
-    font-family: 'Kanit', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: medium;
     color: white;
 }
