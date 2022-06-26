@@ -249,7 +249,13 @@ width: 70vw;
 
 @media (prefers-color-scheme: dark) {
     body {
-        background: rgb(0, 0, 0);
-        color: antiquewhite;
+        background: rgb(80, 55, 55);
+        color: whitesmoke;
+    }
+    .carousel__item {
+        background: rgb(40, 40, 40);
+        color: whitesmoke;
+        animation: fadeIn 1s;
+        display: none;
     }
 }
