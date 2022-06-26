@@ -255,7 +255,5 @@ width: 70vw;
     .carousel__item {
         background: rgb(40, 40, 40);
         color: whitesmoke;
-        animation: fadeIn 1s;
-        display: none;
     }
 }
