@@ -106,9 +106,9 @@ li{
 
 .social__button {
     position: relative;
-    left: 19vw;
+    left: 35vw;
+    height: 4vw;
     width: 4vw;
-    height: 4vw
     
 }
 
@@ -152,7 +152,7 @@ li{
     font-size: medium;
     right: 0vw;
     height: 30vw;
-    width: 25vw;
+    width: 30vw;
     float: right;
     margin-bottom: 30px;
     margin-top: -10px;
@@ -175,6 +175,10 @@ li{
         padding: 10px;
   }
 
+  #linked__button {
+    width: 5vw;
+  }
+
 @media (max-width: 800px) { 
     .link__nav {
 height: 10vw;
@@ -192,6 +196,9 @@ width: 75vw;
         left: 5vw;
         height: 10vw;
         width: 10vw;
+    }
+    #linked__button {
+        width: 12vw;
     }
 }
 @media (prefers-color-scheme: dark) {
