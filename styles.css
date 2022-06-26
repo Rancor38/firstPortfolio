@@ -148,15 +148,17 @@ li{
   #contact__information {
     display: flex;
     flex-direction: column;
-    position: relative;
+    align-items: flex-end;
+    position: absolute;
     font-size: medium;
     height: 10vh;
-    width: 15vw;
-    padding-right: 10vw;
+    width: 20vw;
+    padding-right: 0vw;
+    right: 15vw;
     float: right;
-    margin-bottom: 25vw;
+    margin-bottom: 0vw;
     margin-left: 2vw;
-    margin-top: -2vw;
+    margin-top: -.5vw;
   }
 
   #skills {
@@ -201,19 +203,41 @@ width: 70vw;
     #linked__button {
         width: 12vw;
     }
-}
-@media (max-width: 600px) {
     #contact__information {
-        float: none;
         display: inline-block;
-        flex-direction: unset;
-        width: auto;
-        padding-right: 0;
-        margin-bottom: 0;
-        margin-left: 0;
-         margin-top: 0;
-    }
+        flex-direction: none;
+        align-items: none;
+        position: relative;
+        font-size: large;
+        height: 15vh;
+        width: 50vw;
+        padding-right: 0vw;
+        right: 0vw;
+        float: none;
+        margin-bottom: 0vw;
+        margin-left: 0vw;
+        margin-top: 0vw;
+      }
 }
+
+@media (max-width: 300px) {
+    #contact__information {
+        display: inline-block;
+        flex-direction: none;
+        align-items: none;
+        position: relative;
+        font-size: medium;
+        height: 25vh;
+        width: 50vw;
+        padding-right: 0vw;
+        right: 0vw;
+        float: none;
+        margin-bottom: 0vw;
+        margin-left: 0vw;
+        margin-top: 0vw;
+      }
+}
+
 @media (prefers-color-scheme: dark) {
     body {
         background: rgb(126, 128, 135);
