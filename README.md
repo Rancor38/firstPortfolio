@@ -39,6 +39,8 @@ With my content in place, I added the links to my linkedin and github on the nav
 
 Edit// Revisiting this I had a lot of edits to make to the nav-bar for different sized screens, but I worked out many of the visual bugs I saw.
 
+Edit// Added an overlay to the page in case I run out of time to include interacting requirements. I'll try to find something more fun to replace it with.
+
 [CLICK THIS LINK TO VISIT THE LIVE SITE](https://zakariah.xyz/)
 
 THE FUTURE ON FIRSTPORTFOLIO

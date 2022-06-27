@@ -52,3 +52,12 @@ let windowFeatures = "popup"
     window.open ("https://rancor38.github.io/tic-tac-toe/ ", "game-window", "windowFeatures")
   })
 })
+
+// AN OVERLAY FUNCTION WHEN PEOPLE FIRST GO TO SITE
+function on() {
+    document.getElementById("overlay").style.display = "block";
+  }
+  
+  function off() {
+    document.getElementById("overlay").style.display = "none";
+  }
