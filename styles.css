@@ -249,7 +249,7 @@ width: 70vw;
 
 @media (prefers-color-scheme: dark) {
     body {
-        background: rgb(98, 98, 98);
+        background: rgb(75, 25, 25);
         color: whitesmoke;
     }
     .carousel__item {
