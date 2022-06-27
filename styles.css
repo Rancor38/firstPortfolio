@@ -123,20 +123,25 @@ li{
    border-style: inset;
    padding: 10px;
 }
-/* My Profile pic, on the bio page */
-.prof__pic {
-    margin-bottom: 1vw;
-    border-radius: 50%;
-    width: 15vw;
-    display: flex;
-    justify-content: flex-start;
-  }
+/* text on back of flipped picture */
+.isMe {
+    margin-top: 6vw;
+    font-size: 2vw;
+}
 /* Picture of the Projects on the Projects Page */
   .project__pic {
     border: 1px solid #ddd;
     width: max-content;
     height: 150px;
     cursor: pointer;
+  }
+  /* My Profile pic, on the bio page */
+.prof__pic {
+    margin-bottom: 1vw;
+    border-radius: 50%;
+    width: 15vw;
+    display: flex;
+    justify-content: flex-start;
   }
 /* THE FLIP BOX */
   .flip-box {
@@ -285,6 +290,28 @@ width: 70vw;
         margin-left: 0vw;
         margin-top: 0vw;
       }
+      .isMe {
+        margin-top: 7vw;
+        font-size: 3vw;
+    }
+      .prof__pic {
+        margin-bottom: 1vw;
+        border-radius: 50%;
+        width: 20vw;
+        display: flex;
+        justify-content: flex-start;
+      }
+    /* THE FLIP BOX */
+      .flip-box {
+        margin: auto;
+        background-color: transparent;
+        width: 20vw;
+        height: 20vw;
+        border-radius: 50%;
+        margin-bottom: 1vw;
+        /* border: 1px solid #f1f1f1; */
+        perspective: 1000px;
+      }
 }
 
 @media (max-width: 600px) {
@@ -317,7 +344,7 @@ width: 70vw;
 /* Dark-mode settings */
 @media (prefers-color-scheme: dark) {
     body {
-        background: rgb(75, 25, 25);
+        background: rgb(113, 113, 113);
         color: whitesmoke;
     }
     .carousel__item {
