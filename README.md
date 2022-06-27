@@ -19,6 +19,7 @@ USER STORIES
 As a user I would like to be able to easily navigate the site and find the information that I need.
 
 WIREFRAMES
+These were the concepts for the site I created in Google Slides.
 ![alt text](https://github.com/rancor38/firstPortfolio/blob/main/wireframe1.png?raw=true)
 ![alt text](https://github.com/rancor38/firstPortfolio/blob/main/wireframe2.png?raw=true)
 
