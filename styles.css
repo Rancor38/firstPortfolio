@@ -1,49 +1,55 @@
+            /* IMPORTED FONTS */
 
+/* Imported fonts */
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200&family=Special+Elite&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
+            /* KEYFRAMES */
+/* Transitions between carousel items */
 @keyframes fadeIn {
     0% {opacity: .5;}
     100% {opacity: 1;}
 }
-
+            /* TEXT RULES */
+/* Body general rules */
 body {
     background: whitesmoke;
     font-family: 'Roboto Slab', serif;
     font-family: 'Special Elite', cursive;
 }
+/* heading type 1 */
 h1 {
     text-align: center;
     font-size: 5vw;
     font-family: 'Lobster', cursive;
 }
-
+/* Heading type 2 */
 h2 {
     font-family: 'Lobster', cursive;
     font-size: xx-large
 }
-
+/* Heading type 4 */
 h4 {
     text-align: center;
 }
-
+/* Paragraph text */
 p {
     font-family: 'Roboto', sans-serif;
     font-size: medium;
     color: white;
   }
-
+/* List items */
 li{
     font-family: 'Roboto', sans-serif;
     font-size: medium;
     color: white;
 }
-
+            /* CLASS RULES */
+/* The carousel's position */
 .carousel {
     position: relative;
   }
-  
+  /* Carousel item, but hidden add carousel__item--selected to make it appear */
 .carousel__item {
     width: 90vw;
     background: grey;
@@ -52,11 +58,11 @@ li{
     animation: fadeIn 1s;
     display: none;
 }
-  
+  /* Shows the carousel item selected */
 .carousel__item--selected {
     display: block;
 }
-  
+  /* OLD CAROUSEL NAV, REMOVED BUT POSSIBLY USEFUL IN THE FUTURE*/
 /* .carousel__nav {
     width: 100%;
     padding: 2vw ;
@@ -77,10 +83,12 @@ li{
     cursor: pointer;
   }
    */
+
+   /* The carousel button actually selected color */
 .carousel__button--selected {
     background: rgba(255, 255, 255, 0.7);
 }
-  
+  /* The navigation bar itself */
 .link__nav {
    height: 4.5vw;
    width: 83vw;
@@ -88,6 +96,7 @@ li{
    justify-content: start;
    background: rgba(110, 110, 110, 0.081);
 }
+/* Navigation bar buttons */
 .link__item {
    text-align: center;
    width: 15vw;
@@ -96,14 +105,7 @@ li{
    font-size: 3vw;
 }
 
-/* .social__bar {
-    width: 96vw;
-    height: 10vh;
-    display: flex;
-    justify-content: flex-end;
-    float: inline-start;
-} */
-
+/* social madia buttons */
 .social__button {
     position: relative;
     left: 35vw;
@@ -111,7 +113,7 @@ li{
     width: 4vw;
     
 }
-
+/* Block text, used to organize text into a nice looking box */
 .block__text {
    display: flex;
    flex-direction: column;
@@ -121,7 +123,7 @@ li{
    border-style: inset;
    padding: 10px;
 }
-
+/* My Profile pic, on the bio page */
 .prof__pic {
     margin-left: auto;
     margin-right: auto;
@@ -133,18 +135,18 @@ li{
     display: flex;
     justify-content: flex-start;
   }
-
+/* Picture of the Projects on the Projects Page */
   .project__pic {
     border: 1px solid #ddd;
     width: max-content;
     height: 150px;
     cursor: pointer;
   }
-
+            /* ID RULES */
   #content {
     display: inline;
   }
-
+/* Contact information on the top-right of resume */
   #contact__information {
     display: flex;
     flex-direction: column;
@@ -160,12 +162,12 @@ li{
     margin-left: 2vw;
     margin-top: -.5vw;
   }
-
+/* Columns for skills at bottom of resume */
   #skills {
     display: flex;
     justify-content: space-around;
   }
-
+/*Box for my projects, on projects page  */
   #project__organizer {
         /* display: flex; */
         flex-wrap: wrap;
@@ -177,11 +179,11 @@ li{
         border-style: inset;
         padding: 10px;
   }
-
+/* Specifically for the linkedin button to avoid overlapping with other social buttons */
   #linked__button {
     width: 5vw;
   }
-
+/* Overlay Items */
   #overlay {
     position: fixed;
     display: block;
@@ -206,6 +208,8 @@ li{
     -ms-transform: translate(-50%,-50%);
   }
 
+            /* SCREEN RULES */
+/* Screen size adjustments */
 @media (max-width: 800px) { 
     .link__nav {
 height: 10vw;
@@ -270,7 +274,7 @@ width: 70vw;
         margin-top: 0vw;
       }
 }
-
+/* Dark-mode settings */
 @media (prefers-color-scheme: dark) {
     body {
         background: rgb(75, 25, 25);
