@@ -37,7 +37,9 @@ The last thing that I wanted to add was content, so once my "pages" on the carou
 
 With my content in place, I added the links to my linkedin and github on the navbar, and I still had to make a README and that's where I am now, moments before I host this website.
 
-[CLICK THIS LINK TO VISIT THE LIVE SITE]()
+Edit// Revisiting this I had a lot of edits to make to the nav-bar for different sized screens, but I worked out many of the visual bugs I saw.
+
+[CLICK THIS LINK TO VISIT THE LIVE SITE](https://zakariah.xyz/)
 
 THE FUTURE ON FIRSTPORTFOLIO
 
