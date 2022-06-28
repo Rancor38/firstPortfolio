@@ -13,6 +13,7 @@
             /* TEXT RULES */
 /* Body general rules */
 body {
+    align-items: center;
     background: whitesmoke;
     font-family: 'Roboto Slab', serif;
     font-family: 'Special Elite', cursive;
@@ -51,7 +52,7 @@ li{
   }
   /* Carousel item, but hidden add carousel__item--selected to make it appear */
 .carousel__item {
-    width: 90vw;
+    width: 95vw;
     background: grey;
     padding: 1em;
     color: whitesmoke;
@@ -131,7 +132,7 @@ li{
 /* Picture of the Projects on the Projects Page */
   .project__pic {
     border: 1px solid #ddd;
-    width: max-content;
+    width: 150px;
     height: 150px;
     cursor: pointer;
   }
