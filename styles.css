@@ -367,6 +367,6 @@ width: 70vw;
       background: rgba(21, 21, 21, 0.7);
 }
     .carousel__button--selected {
-  background: rgba(150, 150, 150, 0.7)
+  background: rgba(113, 113, 113)
 }
 }
