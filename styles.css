@@ -13,7 +13,7 @@
             /* TEXT RULES */
 /* Body general rules */
 body {
-    align-items: center;
+    /* align-items:; */
     background: whitesmoke;
     font-family: 'Roboto Slab', serif;
     font-family: 'Special Elite', cursive;
@@ -49,6 +49,7 @@ li{
 /* The carousel's position */
 .carousel {
     position: relative;
+    width: 100vw;
   }
   /* Carousel item, but hidden add carousel__item--selected to make it appear */
 .carousel__item {
