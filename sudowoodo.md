@@ -14,7 +14,7 @@ Add an overlay over the page that greets the user.
 Add links to Github and LinkedIn (Absolutes on right side of screen, or on navbar)
 Update the README
 
-make flip-box for projects
+make flip-box for projects (add title, description, and technologies used)
 make overlay better
 
 Add PDF of Resume to download?

@@ -13,10 +13,10 @@
             /* TEXT RULES */
 /* Body general rules */
 body {
-    /* align-items:; */
     background: whitesmoke;
     font-family: 'Roboto Slab', serif;
     font-family: 'Special Elite', cursive;
+    max-width: 100vw;
 }
 /* heading type 1 */
 h1 {
@@ -49,7 +49,7 @@ li{
 /* The carousel's position */
 .carousel {
     position: relative;
-    width: 100vw;
+    width: 95vw;
   }
   /* Carousel item, but hidden add carousel__item--selected to make it appear */
 .carousel__item {
