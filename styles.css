@@ -314,6 +314,14 @@ width: 70vw;
         perspective: 1000px;
       }
 }
+    /* BUTTON DEFAULT STYLINGS OFF */
+    #pdf{
+        font-family: 'Lobster', cursive;
+        color: whitesmoke;
+        text-decoration: none;
+        font-size: x-large;
+
+    }
 
 @media (max-width: 600px) {
     .link__nav {
