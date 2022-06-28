@@ -16,7 +16,7 @@ body {
     background: whitesmoke;
     font-family: 'Roboto Slab', serif;
     font-family: 'Special Elite', cursive;
-    max-width: 100vw;
+    width: 83vw;
 }
 /* heading type 1 */
 h1 {
@@ -49,11 +49,11 @@ li{
 /* The carousel's position */
 .carousel {
     position: relative;
-    width: 95vw;
+    width: 93vw;
   }
   /* Carousel item, but hidden add carousel__item--selected to make it appear */
 .carousel__item {
-    width: 95vw;
+    width: 93vw;
     background: grey;
     padding: 1em;
     color: whitesmoke;
@@ -87,16 +87,14 @@ li{
    */
 
    /* The carousel button actually selected color */
-.carousel__button--selected {
-    background: rgba(255, 255, 255, 0.7);
-}
+
   /* The navigation bar itself */
 .link__nav {
    height: 4.5vw;
    width: 83vw;
    display: flex;
    justify-content: start;
-   background: rgba(110, 110, 110, 0.081);
+   background: rgba(110, 110, 110, 0);
 }
 /* Navigation bar buttons */
 .link__item {
@@ -105,6 +103,11 @@ li{
    cursor: pointer;
    padding-inline-start: 1vw;
    font-size: 3vw;
+   background: rgba(220, 220, 220, 0.7);
+}
+
+.carousel__button--selected {
+  background: rgba(245, 245, 245, 0.7)
 }
 
 /* social madia buttons */
@@ -270,7 +273,7 @@ width: 70vw;
         font-stretch: ultra-condensed;
     }
     .social__button {
-        left: 5vw;
+        left: 3vw;
         height: 10vw;
         width: 10vw;
     }
