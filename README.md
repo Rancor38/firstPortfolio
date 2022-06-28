@@ -1,6 +1,8 @@
+# firstPortfolio
+
 firstPortfolio is THE portfolio for Zakariah O'Mara-Mezzano, and it features HTML, CSS, and JavaScript to deliver an easy to use experience for all users!
 
-PICTURES OF WEBSITE HERE
+## PICTURES OF WEBSITE HERE
 
 ![alt text](https://github.com/rancor38/firstPortfolio/blob/main/readme-bio.png?raw=true)
 
@@ -8,7 +10,7 @@ PICTURES OF WEBSITE HERE
 
 ![alt text](https://github.com/rancor38/firstPortfolio/blob/main/readme-projects.png?raw=true)
 
-TECHNOLOGIES USED
+## TECHNOLOGIES USED
 The primary technologies used within were HTML, a lot of CSS, and JavaScript.
 
 INSTALLATION INSTRUCTIONS
@@ -18,12 +20,12 @@ It's a website, idk.
 USER STORIES
 As a user I would like to be able to easily navigate the site and find the information that I need.
 
-WIREFRAMES
+## WIREFRAMES
 These were the concepts for the site I created in Google Slides.
 ![alt text](https://github.com/rancor38/firstPortfolio/blob/main/wireframe1.png?raw=true)
 ![alt text](https://github.com/rancor38/firstPortfolio/blob/main/wireframe2.png?raw=true)
 
-APPROACH TAKEN
+## APPROACH TAKEN
 I started off with a page for pseudocode and user-stories. I like to call this page sudowoodu (named after a very funny Pokemon) as this is a play-space to organize my thoughts. I also had 2 images still in the files of my wireframe. I built the wireframe in google slides, took a screenshot, and that was going to be my plan.
 
 As my plans changed or I noticed things about the site that I didn't like, I would quickly jot these down in sudowoodo so I would know to come back to them later.
@@ -44,6 +46,6 @@ Edit// Added an overlay to the page in case I run out of time to include interac
 
 [CLICK THIS LINK TO VISIT THE LIVE SITE](https://zakariah.xyz/)
 
-THE FUTURE ON FIRSTPORTFOLIO
+## THE FUTURE ON FIRSTPORTFOLIO
 
 When I come back, I'll follow my own pipeline. I'll lay out my plans in sudowoodo, and go through my checklist of projects. First to be updated has to be the Projects Page. The other two are pretty basic, but they do their job. The projects page not only needs content, but a better way to display my work than a popup window.
