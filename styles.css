@@ -94,7 +94,6 @@ li{
    width: 83vw;
    display: flex;
    justify-content: start;
-   background: rgba(110, 110, 110, 0);
 }
 /* Navigation bar buttons */
 .link__item {
@@ -364,4 +363,6 @@ width: 70vw;
         background: rgb(40, 40, 40);
         color: whitesmoke;
     }
+    .link__item {
+      background: rgba(21, 21, 21, 0.7);
 }
