@@ -366,3 +366,7 @@ width: 70vw;
     .link__item {
       background: rgba(21, 21, 21, 0.7);
 }
+    .carousel__button--selected {
+  background: rgba(255, 255, 255, 0.7)
+}
+}
