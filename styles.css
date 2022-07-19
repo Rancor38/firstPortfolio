@@ -45,6 +45,10 @@ li{
     font-size: medium;
     color: white;
 }
+/* Hyperlink Styling */
+a {
+  color: inherit;
+}
             /* CLASS RULES */
 /* The carousel's position */
 .carousel {
@@ -191,6 +195,12 @@ li{
     border-radius: 50%;
     transform: rotateY(180deg);
   }
+
+  .nameAndPicture {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
             /* ID RULES */
   #content {
     display: inline;
@@ -218,10 +228,9 @@ li{
   }
 /*Box for my projects, on projects page  */
   #project__organizer {
-        /* display: flex; */
+        display: flex;
         flex-wrap: wrap;
-        flex-direction: column;
-        margin: auto;
+        /* flex-direction: column; */
         width: fit-content; 
         height: fit-content;
         border: .5vw;

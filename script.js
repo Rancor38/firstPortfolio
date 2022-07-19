@@ -43,21 +43,25 @@ document.querySelectorAll(".carousel").forEach((carousel) => {
 
 
   //A BUTTON FOR EACH PROJECT ON THE PROJECT PAGE, IDENTIFYING THEM BY ID
-  const projectButton = document.querySelector("#tictac")
+  const projectButton1 = document.querySelector("#tictac")
+  const projectButton2 = document.querySelector("#monster")
 
 //A POP UP WINDOW FOR PROJECTS CLICKED
 let windowFeatures = "popup"
 
-  projectButton.addEventListener("click", () => {
-    window.open ("https://rancor38.github.io/tic-tac-toe/ ", "game-window", "windowFeatures")
+  projectButton1.addEventListener("click", () => {
+    window.open ("https://rancor38.github.io/tic-tac-toe/", "game-window", "windowFeatures")
+  })
+  projectButton2.addEventListener("click", () => {
+    window.open ("https://monster-finders.netlify.app/", "game-window", "windowFeatures")
   })
 })
 
 // AN OVERLAY FUNCTION WHEN PEOPLE FIRST GO TO SITE
-function on() {
-    document.getElementById("overlay").style.display = "block";
-  }
+// function on() {
+//     document.getElementById("overlay").style.display = "block";
+//   }
   
-  function off() {
-    document.getElementById("overlay").style.display = "none";
-  }
+//   function off() {
+//     document.getElementById("overlay").style.display = "none";
+//   }
